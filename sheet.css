@@ -1,0 +1,67 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.operations-panel {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.subsheet-selection,
+.operation-row {
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+button.apply-button,
+button#download-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.apply-button:hover,
+button#download-button:hover {
+    background-color: #0056b3;
+}
+
+.sheet-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.sheet-content th,
+.sheet-content td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+}
+
+.modal-content button {
+    margin-top: 10px;
+}
